@@ -1,0 +1,9 @@
+// DOM Selection
+// document.getElementById() -> mengembalikan element
+const judul = document.getElementById('judul');
+judul.style.color = 'red';
+judul.style.backgroundColor = 'grey';
+judul.innerHTML = 'Sandhika Galih';
+
+//document.getElementsByTagName() -> mengembalikan HTMCollections
+const p = document.getElementsByTagName('p');
